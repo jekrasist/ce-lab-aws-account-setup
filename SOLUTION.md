@@ -1,19 +1,20 @@
 # AWS Account Setup Lab - Solution
 
-**Student Name:** [Your Name]  
-**Date Completed:** [Date]
+**Student Name:** [Ahmet Erdogan]  
+**Date Completed:** [02.02.2026]
 
 ---
 
 ## Exercise 1: MFA Configuration
 
 ### Screenshot:
-![MFA Enabled](screenshots/mfa-enabled.png)
+![MFA Enabled](<img width="951" height="294" alt="image" src="https://github.com/user-attachments/assets/bf5905ca-1517-4430-bc31-3e6d50bd78ce" />
+)
 
 ### Notes:
-- Authenticator app used: [Google Authenticator / Microsoft Authenticator / Authy]
-- MFA setup completed successfully: [Yes / No]
-- Backup codes saved: [Yes / No]
+- Authenticator app used: [2FAS]
+- MFA setup completed successfully: [Yes]
+- Backup codes saved: [No]
 
 ---
 
@@ -22,18 +23,21 @@
 ### Screenshots:
 
 **Billing Preferences:**
-![Billing Preferences](screenshots/billing-preferences.png)
+![Billing Preferences](<img width="1440" height="389" alt="image" src="https://github.com/user-attachments/assets/805dc64b-f9a5-41a7-9043-0c2d5ac32652" />
+)
 
 **Billing Alarm:**
-![Billing Alarm](screenshots/billing-alarm.png)
+![Billing Alarm](<img width="1484" height="419" alt="image" src="https://github.com/user-attachments/assets/6225844a-12d1-4897-b74f-e6d816b2060d" />
+)
 
 **SNS Confirmation:**
-![SNS Confirmed](screenshots/sns-confirmed.png)
+![SNS Confirmed](<img width="902" height="233" alt="image" src="https://github.com/user-attachments/assets/58c81030-3a72-47f3-9276-30c9bfcdc805" />
+)
 
 ### Configuration Details:
-- Alert threshold: $[amount]
-- Email confirmed: [Yes / No]
-- Additional thresholds created (bonus): [Yes / No - if yes, list amounts]
+- Alert threshold: $[1]
+- Email confirmed: [Yes]
+- Additional thresholds created (bonus): [Yes]
 
 ---
 
@@ -43,16 +47,17 @@
 ![Account Alias](screenshots/account-alias.png)
 
 ### Account Details:
-- **Account Alias:** [your-alias-here]
-- **Sign-In URL:** `https://[your-alias].signin.aws.amazon.com/console`
-- **Tested successfully:** [Yes / No]
+- **Account Alias:** [Ahmet-Erdogan-Ironhack]
+- **Sign-In URL:** `ahmet-erdogan-ironhack.signin.aws.amazon.com/console`
+- **Tested successfully:** [No]
 
 ---
 
 ## Exercise 4: Free Tier Dashboard
 
 ### Screenshot:
-![Free Tier Dashboard](screenshots/free-tier-dashboard.png)
+![Free Tier Dashboard](<img width="1418" height="540" alt="image" src="https://github.com/user-attachments/assets/1265a6ca-4969-4cf0-b226-05aad3bf3e9a" />
+)
 
 ### Current Free Tier Usage Summary:
 
@@ -63,8 +68,8 @@
 | [Other services...] | | | |
 
 ### Notes:
-- Any services approaching limits? [Yes / No - if yes, which ones?]
-- Any unexpected usage? [Yes / No - if yes, describe]
+- Any services approaching limits? [No]
+- Any unexpected usage? [Yes, it seems like some of the balance has been used, but it doesn't specify what]]
 
 ---
 
@@ -73,43 +78,43 @@
 ### 1. Why is MFA important even for a personal learning account?
 
 **Your Answer:**
-[Write your answer here. Consider: What could happen if someone gained access to your account? What damage could they do? What costs could they incur?]
+[Because it is connected to a payment method and if someone with bad intentions gets acess to your account you might end up with a huge bill at the end of the month.]
 
 ---
 
 ### 2. What would happen if you left your root user unprotected?
 
 **Your Answer:**
-[Write your answer here. Think about: What access does root user have? What could an attacker do? How would you recover?]
+[Someone could easily get acess to my account.]
 
 ---
 
 ### 3. How do billing alerts help prevent unexpected charges?
 
 **Your Answer:**
-[Write your answer here. Consider: When do you get notified? What actions can you take? Why is proactive monitoring important?]
+[You are more likely to find out about the unnecesary charges before they rack up.]
 
 ---
 
 ### 4. What threshold did you set for your billing alert and why?
 
 **Your Answer:**
-[Write your answer here. Explain: Why did you choose this amount? Is it appropriate for your usage? Would you set multiple thresholds?]
+[1 Usd. I will just switch to a different account when my credit expires.]
 
 ---
 
 ### 5. What is your account alias and why did you choose it?
 
 **Your Answer:**
-- **Alias:** [your-alias]
-- **Reasoning:** [Why did you choose this name? What makes it memorable and professional?]
+- **Alias:** [ahmet-erdogan-ironhack]
+- **Reasoning:** [Because it is really simple to remember and I am unlikely to forget it.]
 
 ---
 
 ### 6. What services are you currently using according to the Free Tier dashboard?
 
 **Your Answer:**
-[List the services you're using and their current usage levels. Are you surprised by any usage?]
+[Nothing at the moment.]
 
 ---
 
@@ -150,19 +155,19 @@
 
 **What was the most challenging part of this lab?**
 
-[Your answer]
+[Fork]
 
 ---
 
 **What would you do differently next time?**
 
-[Your answer]
+[Go step by step]
 
 ---
 
 **What security practices will you implement going forward?**
 
-[Your answer]
+[Extra billing protections]
 
 ---
 
@@ -179,5 +184,5 @@
 
 ---
 
-**Lab Completed By:** [Your Name]  
-**Date:** [Date]
+**Lab Completed By:** [Ahmet Erdogan]  
+**Date:** [02.02.2026]
